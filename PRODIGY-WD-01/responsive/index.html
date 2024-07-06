@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=5, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--navbar -->
+    <nav class="navbar">
+        <h1 class="logo">TREKKING</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a  href="#"></a>Contact</li>
+        </ul>
+        <img src="./menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the Amazing World</h2>
+            <div class="line"></div>
+            <h1>Discover Your Next Adventure</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img1.jpg" alt="">
+                <h4>Kalsubai Peak Trek</h4>
+                <p>
+                    KALSUBAI PEAK, the highest point in Maharashtra at 1,646 meters, offers an exhilarating trekking experience. Starting from Bari village, the trek features lush forests, rugged paths, and steel ladders aiding the climb. At the summit, enjoy panoramic views of the Sahyadri range and visit the small temple dedicated to the local deity, Kalsubai. Ideal for monsoon and winter treks, Kalsubai promises a blend of adventure and natural beauty.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img2.jpg" alt="">
+                <h4>Kalavanti Durg Trek</h4>
+                <p>
+                   KALAVANTI DURG , a pinnacle fort near Panvel in Maharashtra, is renowned for its thrilling trek and stunning views. The trek starts from Thakurwadi village, leading through lush greenery and steep, rocky terrain. The highlight is the final ascent, involving rock-cut steps that offer a vertical climb. At the top, trekkers are rewarded with breathtaking vistas of the Sahyadri range and nearby Prabalgad fort. Best undertaken in the monsoon or winter, this trek is perfect for adventure enthusiasts seeking a unique and challenging experience.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+      </section>
+
+    <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Embark on unforgettable trekking adventures and witness breathtaking landscapes. Whether you're scaling the Himalayan peaks or exploring the lush Amazon rainforest, our expert guides ensure a safe and enriching experience. Discover the beauty of nature and immerse yourself in diverse cultures. Ready to start your journey? Click "Learn More" to plan your next adventure!</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>723 Govind kunj, Navi Mumbai, Maharashtra, India | Phone: 912398-789-508 | Email: trekkingmaharashtra@fun.com</p>
+        <p>Copyright @ 2024 Trekking</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks =  document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
